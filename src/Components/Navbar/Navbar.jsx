@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul>
         <li>Home</li>
         <li>Methods</li>
-        <li>Scheduling</li>
+        <li>About</li>
         <li>On Demand Learning</li>
         <li>Other Resources</li>
         <li><button className='btn'>Contact Us</button></li>
