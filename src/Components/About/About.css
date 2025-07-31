@@ -1,0 +1,35 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.about-left{
+    flex-basis: 40%;
+}
+.about-right{
+    flex-basis: 50%;
+    display: column;
+}
+.about-img{
+    width: 100%;
+    border-radius: 10px
+}
+.about h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #08003a;
+}
+.about h3{
+    font-size: 26px;
+    font-weight: 500;
+    color: #54B5F6;
+    margin-top: 20px;
+}
+.about p{
+    font-size: 14px;
+    color: #08003a;
+    margin: 20px 0;
+    line-height: 1.6;
+}
