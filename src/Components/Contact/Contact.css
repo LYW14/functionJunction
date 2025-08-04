@@ -21,13 +21,64 @@
     max-width: 450px;
     list-style: .3;
 }
-.contact-col ul li{
+.contact-col ul li,
+li a{
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
+    gap: 5px;
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 .contact-col ul li img{
     /* color: #000; */
     width: 25px;
     margin-right: 10px;
+}
+.contact form input,
+form textarea {
+    display: block;
+    background: #EBECFE;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+    width: 100%;
+    padding: 15px 15px 15px 40px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  box-sizing: border-box;
+}
+form input[name="name"] {
+    background-image: url('../../assets/user1.svg');
+  }
+  
+form input[name="email"] {
+    background-image: url('../../assets/email.svg');
+  }
+form textarea[name="message"] {
+    padding-left: 10px;
+    background-image: none;
+  }
+.dark-btn{
+    background-color: #212EA0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dark-btn:hover{
+    background-color: #003da5;
+}
+.contact-col span{
+    display: block;
+    margin-top: 10px;
+    padding: 0 15px;
 }
