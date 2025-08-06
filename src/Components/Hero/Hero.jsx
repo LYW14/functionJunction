@@ -3,7 +3,7 @@ import './Hero.css'
 import dark_arrow from '/Users/lucywang/Desktop/functionJunction/src/assets/dark-arrow.png'
 const Hero = () => {
   return (
-    <div className='hero container'>
+    <div className='hero'>
       <div className='hero-text'>
         <h1>Launch Your Learning 
         </h1>

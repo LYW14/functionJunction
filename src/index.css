@@ -37,3 +37,15 @@ a{
   width: 20px;
   margin-left: 10px;
 }
+/* media query */
+@media(max-width: 1352px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    width: 100%;
+    padding: 14px 22px;
+    text-align: center;
+  }
+}

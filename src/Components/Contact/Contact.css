@@ -82,3 +82,12 @@ form textarea[name="message"] {
     margin-top: 10px;
     padding: 0 15px;
 }
+/* media query */
+@media(max-width: 700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}
