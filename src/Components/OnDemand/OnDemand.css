@@ -1,0 +1,61 @@
+.onDemand {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap; 
+  }
+  
+  .videoWrapper {
+    position: relative;
+    width: 320px;
+    height: 180px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .videoWrapper iframe,
+  .videoWrapper lite-youtube {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Hover Overlay */
+  .videoOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    border-radius: 8px;
+  }
+  
+  .videoWrapper:hover .videoOverlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .overlayText {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+  }
+  
+  .videoWrapper:hover .overlayText {
+    transform: translateY(-10px);
+  }
+  

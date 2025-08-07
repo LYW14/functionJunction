@@ -34,7 +34,8 @@ const Navbar = () => {
         <li><Link to="hero" smooth={true} offset={0} duration={500} onClick={() => setNavOpen(false)}>Home</Link></li>
         <li><Link to="methods" smooth={true} offset={-300} duration={500} onClick={() => setNavOpen(false)}>Methods</Link></li>
         <li><Link to="about" smooth={true} offset={-170} duration={500} onClick={() => setNavOpen(false)}>About</Link></li>
-        <li>On Demand Learning</li>
+        <li><Link to="onDemand" smooth={true} offset={-300} duration={500} onClick={() => setNavOpen(false)}>On Demand Learning</Link></li>
+        {/* <li>On Demand Learning</li> */}
         <li><Link to="testimonial" smooth={true} offset={-300} duration={500} onClick={() => setNavOpen(false)}>Testimonials</Link></li>
         <li>Other Resources</li>
         <li><Link to="contact" smooth={true} offset={-300} duration={500} className="btn" onClick={() => setNavOpen(false)}>Contact Us</Link></li>

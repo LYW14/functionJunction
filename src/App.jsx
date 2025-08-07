@@ -18,8 +18,22 @@ const App = () => {
         <Title subTitle='Objective: Equip students with the strategies and confidence to tackle problems on their own!' title='Discover Teaching Methods'/>
         <Methods/>
         <About/>
-        <Title subTitle='Can&apos;t make it to a session? Check out my YouTube channel! Access helpful, digestible tutoring videos anytime!' title='On Demand Learning'/>
-        {/* <OnDemand/> */}
+        <Title subTitle={
+        <>
+          Can’t make it to a session? Check out my{' '}
+          <a
+            href="https://www.youtube.com/@LucyWang14"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: 'underline', color: '#1a0dab' }}
+          >
+            YouTube channel
+          </a>
+          ! Access helpful, digestible tutoring videos anytime!
+        </>
+        }
+         title='On Demand Learning'/>
+        <OnDemand/>
         <Title subTitle='Hear from real students!' title='Testimonials'/>
         <Testimonials/>
         <Title subTitle='Have questions? Want to learn more? Reach out!' title='Contact Us'/>
