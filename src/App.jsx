@@ -8,6 +8,7 @@ import OnDemand from './Components/OnDemand/OnDemand'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import Schedule from './Components/Schedule/Schedule'
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
         <Title subTitle='Objective: Equip students with the strategies and confidence to tackle problems on their own!' title='Discover Teaching Methods'/>
         <Methods/>
         <About/>
+        <Title subTitle='Flexible scheduling to fit your needs!' title='Schedule a session'/>
+        <Schedule/>
         <Title subTitle={
         <>
           Can’t make it to a session? Check out my{' '}
